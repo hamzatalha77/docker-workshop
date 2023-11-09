@@ -11,4 +11,3 @@ COPY . .
 EXPOSE 3000
 
 CMD ["npm","start"]
-docker image build -t docker-workshop:latest . 
