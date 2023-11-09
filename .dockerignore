@@ -1,5 +1,5 @@
 node_modules
-Dpckerfile
+Dockerfile
 .git
 .gitignore
 .dockerignore
