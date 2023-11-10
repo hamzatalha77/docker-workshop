@@ -1,5 +1,8 @@
+
 /node_modules
 Dockerfile
 .git
 .gitignore
 .dockerignore
+
+#  docker build -t nginx:1.0 .
