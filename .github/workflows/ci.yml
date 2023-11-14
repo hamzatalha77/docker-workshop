@@ -22,3 +22,5 @@ jobs:
       run: docker build -t hamza838/cicd-pipeline .
     - name: Push to Dockerhub
       run: docker push hamza838/cicd-pipeline:latest
+
+      
