@@ -28,9 +28,9 @@ jobs:
       - name: Build & Tag Docker Image
         run: |
           docker build -t react-app-ecr .
-          docker tag react-app-ecr:latest 157931892911.dkr.ecr.us-east-1.amazonaws.com/hamzaecrdeploy:latest
+          docker tag react-app-ecr:latest 423313210448.dkr.ecr.us-east-1.amazonaws.com/hamzaecrdeploy:latest
       - name: Push Docker Image to ecr
-        run: docker push 157931892911.dkr.ecr.us-east-1.amazonaws.com/hamzaecrdeploy:latest
+        run: docker push 423313210448.dkr.ecr.us-east-1.amazonaws.com/hamzaecrdeploy:latest
 
       - name: Update Kube Config
         run: aws eks --region us-east-1 update-kubeconfig --name hamzacluster77
